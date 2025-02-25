@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #6c63ff, #00d4ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Form Styling */
+  .signin-form {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .signin-form:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Header Styling */
+  .signin-form h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Input Group Styling */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.3);
+  }
+  
+  /* Forgot Password Styling */
+  .actions {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password {
+    font-size: 14px;
+    color: #6c63ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password:hover {
+    color: #4b47cc;
+  }
+  
+  /* Button Styling */
+  .signin-btn {
+    background: #6c63ff;
+    color: #ffffff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-btn:hover {
+    background-color: #4b47cc;
+  }
+  
+  /* Create Account Styling */
+  .create-account {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .create-account a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .create-account a:hover {
+    color: #4b47cc;
+  }
+  

@@ -74,5 +74,9 @@ namespace MY_DESKTOP_APP.Allusercontrol
             LoadData("SELECT * FROM details"); // Refresh data after update
         }
 
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

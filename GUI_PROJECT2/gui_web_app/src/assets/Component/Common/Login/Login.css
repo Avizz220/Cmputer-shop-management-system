@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #3b6eaf, #00b7cc); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Styling for the login form */
+.login-form {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.forget
+{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Header styling */
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkorchid;
+   
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label Styling */
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #777;
+    font-weight: 500;
+}
+
+/* Input Field Styling */
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #00b7cc;
+    box-shadow: 0 0 8px rgba(0, 183, 204, 0.3);
+}
+
+/* Button Styling */
+.login-btn {
+    background-color: #00b7cc;
+    color: #fff;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #019e9a;
+}
+
+/* Link Styling */
+.signup-link {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #00b7cc;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.fgtpassword
+{
+    margin-right: 70px;
+}
+
+.chckbox
+{
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+}
+
+.signup-link a:hover {
+    color: #019e9a;
+}
+
+/* Hover effect on form */
+.login-form:hover {
+    transform: translateY(-10px);
+}

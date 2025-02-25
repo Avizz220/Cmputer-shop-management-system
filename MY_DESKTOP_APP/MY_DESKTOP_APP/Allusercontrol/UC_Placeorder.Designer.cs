@@ -253,6 +253,7 @@
             txtTotal.ShadowDecoration.CustomizableEdges = customizableEdges10;
             txtTotal.Size = new Size(201, 34);
             txtTotal.TabIndex = 11;
+            txtTotal.TextChanged += txtTotal_TextChanged;
             // 
             // txtQuantity
             // 

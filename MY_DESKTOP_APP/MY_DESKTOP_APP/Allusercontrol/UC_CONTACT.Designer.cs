@@ -129,6 +129,7 @@
             txtEmail.Size = new Size(286, 28);
             txtEmail.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtEmail.TabIndex = 5;
+            txtEmail.TextChanged += txtEmail_TextChanged;
             // 
             // txtGender
             // 

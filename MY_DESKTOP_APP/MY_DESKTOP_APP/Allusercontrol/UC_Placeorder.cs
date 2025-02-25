@@ -188,5 +188,10 @@ namespace MY_DESKTOP_APP.Allusercontrol
             labelTotalAmount.Text = "RS :" + total;
 
         }
+
+        private void txtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

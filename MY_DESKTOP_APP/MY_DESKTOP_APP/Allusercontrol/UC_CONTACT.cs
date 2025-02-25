@@ -48,7 +48,12 @@ namespace MY_DESKTOP_APP.Allusercontrol
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
